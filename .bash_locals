@@ -1,0 +1,2 @@
+alias upgrade='sudo pacman -Syu && yaourt -Syu --aur'
+alias remove-orphans='sudo pacman -Rs $(pacman -Qqdt)'

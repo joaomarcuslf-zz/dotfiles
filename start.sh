@@ -3,9 +3,13 @@ mv ~/.zshrc ~/.zshrc.pre-dotfiles
 mv ~/.bash_aliases ~/.bash_aliases.pre-dotfiles
 mv ~/.bash_exports ~/.bash_exports.pre-dotfiles
 mv ~/.bashrc ~/.bashrc.pre-dotfiles
+mv ~/.yaourtrc ~/.yaourtrc.pre-dotfiles
+mv ~/.bash_locals ~/.bash_locals.pre-dotfiles
 
 ln -sf `pwd`/.vimrc ~/.vimrc
 ln -sf `pwd`/.zshrc ~/.zshrc
 ln -sf `pwd`/.bash_aliases ~/.bash_aliases
 ln -sf `pwd`/.bash_exports ~/.bash_exports
 ln -sf `pwd`/.bashrc ~/.bashrc
+ln -sf `pwd`/.yaourtrc ~/.yaourtrc
+ln -sf `pwd`/.bash_locals ~/.bash_locals
